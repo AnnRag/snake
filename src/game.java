@@ -66,7 +66,7 @@ public class game extends JPanel implements ActionListener {
             }
         } else{
             String str = "Game over";
-            Font f = new Font("Arial", Font.BOLD, 18);
+            Font f = new Font("Arial", Font.BOLD, 14);
             g.setColor(Color.WHITE);
             g.setFont(f);
             g.drawString(str,125,size/2);
